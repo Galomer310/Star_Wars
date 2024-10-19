@@ -51,9 +51,11 @@ h1 {
 }
 
 .pTxt:hover {
+    font-size: 2rem;
+    transition: 0.5ms ease-in-out;
     justify-content: center;
-    background-color: rgba(235, 235, 185, 0.5);
-    color: rgb(98, 28, 28);
+    background-color: rgba(170, 170, 152, 0.5);
+    color: rgb(213, 53, 53);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 50px;
 
