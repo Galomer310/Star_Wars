@@ -1,17 +1,10 @@
 body {
     background-image: url(./images/star-wars.jpg); /* Default image */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
+    background-size:cover;
+    
 }
 
-
-
-/* Media query for small screens (up to 600px) */
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     body {
         background-image: url(./images/pexels-philippedonn-1257860.jpg); /* Image for small screens */
     }
