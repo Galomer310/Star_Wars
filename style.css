@@ -1,7 +1,5 @@
 body {
     background-image: url(./images/Luke\ Skywalker\ Wallpaper\ -\ iPhone\ 12_Pro.jpeg); /* Default image */
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
