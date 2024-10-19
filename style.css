@@ -9,6 +9,7 @@ body {
 @media (max-width: 600px) {
     body {
         background-image: url(./images/starwarsPhoneScreen.jpg); /* Image for small screens */
+        height: 100vh;
     }
 }
 
