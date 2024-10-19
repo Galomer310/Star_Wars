@@ -1,5 +1,5 @@
 body {
-    background-image: url(./images/pexels-philippedonn-1257860.jpg); /* Default image */
+    background-image: url(./images/Luke\ Skywalker\ Wallpaper\ -\ iPhone\ 12_Pro.jpeg); /* Default image */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8,10 +8,7 @@ body {
     margin: 20px;
 }
 
-
-
-/* Media query for small screens (up to 600px) */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     body {
         background-image: url(./images/starwarsPhoneScreen.jpg); /* Image for small screens */
     }
@@ -49,13 +46,14 @@ h1 {
 
 .pTxt {
     padding: 1rem;
-    color: rgb(2, 0, 0);
+    color: rgb(213, 53, 53);
+
 }
 
 .pTxt:hover {
     justify-content: center;
     background-color: rgba(235, 235, 185, 0.5);
-    color: rgb(213, 53, 53);
+    color: rgb(98, 28, 28);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 50px;
 
