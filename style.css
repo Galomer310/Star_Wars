@@ -11,7 +11,7 @@ body {
 
 
 /* Media query for small screens (up to 600px) */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     body {
         background-image: url(./images/pexels-philippedonn-1257860.jpg); /* Image for small screens */
     }
