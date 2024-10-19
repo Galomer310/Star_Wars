@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Character Info</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <button id="fetch-character-btn">Find Someone</button>
+    <div id="loading-message" style="display: none;">
+        <i class="fas fa-spinner fa-spin"></i> Loading...
+    </div>
+    <div id="character-info">
+        <p class="pTxt"><strong>Name:</strong> <span id="character-name"></span></p>
+        <p class="pTxt"><strong>Height:</strong> <span id="character-height"></span></p>
+        <p class="pTxt"><strong>Mass:</strong> <span id="character-mass"></span></p>
+        <p class="pTxt"><strong>Hair color</strong> <span id="character-hair-color"></span></p>
+        <p class="pTxt"><strong>Skin color:</strong> <span id="character-skin-color"></span></p>
+        <p class="pTxt"><strong>Eye color:</strong> <span id="character-eye-color"></span></p>
+        <p class="pTxt"><strong>Gender:</strong> <span id="character-gender"></span></p>
+        <p class="pTxt"><strong>Birth Year:</strong> <span id="character-birth-year"></span></p>
+        <p class="pTxt"><strong>Home World:</strong> <span id="character-homeworld"></span></p>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

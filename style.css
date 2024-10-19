@@ -1,0 +1,52 @@
+body {
+    background-image: url(./images/starwarsimg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#loading-message {
+    margin: 20px;
+    font-size: 1.5em;
+    color: #FFD700;
+}
+
+#character-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+h1 {
+    font-family: 'star jedi';
+    font-size: 2.5em;
+    color: #FFD700;
+}
+
+#fetch-character-btn {
+    background-color: cadetblue;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10px;
+    color: #FFD700;
+    font-size: 1.2rem;
+}
+
+#fetch-character-btn:hover {
+    background-color: brown;
+}
+
+.pTxt {
+    padding: 1rem;
+    color: red;
+}
+
+.pTxt:hover {
+    background-color:#FFD700;;
+    
+    border-radius: 20px;
+    border: 10px solid red;
+    
+}
