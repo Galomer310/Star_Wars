@@ -1,5 +1,5 @@
 body {
-    background-image: url(./images/star-wars.jpg); /* Default image */
+    background-image: url(./images/pexels-philippedonn-1257860.jpg); /* Default image */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@ body {
 /* Media query for small screens (up to 600px) */
 @media (max-width: 700px) {
     body {
-        background-image: url(./images/small-pexels-philippedonn-1257860.jpg); /* Image for small screens */
+        background-image: url(./images/starwarsPhoneScreen.jpg); /* Image for small screens */
     }
 }
 
